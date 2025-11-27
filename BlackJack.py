@@ -144,7 +144,7 @@ def auto_play(computer, player, deck, displayed):
 
 
 def play(player1='Computer', player2='Player', d=None, RENDER=False):
-    print('Welcome to IPaeTuaDum BlackJack Casino.')
+    print('Welcome to Nakirium\'s BlackJack Casino.')
     preamble(RENDER)
     # create a deck of cards
     if d==None:
@@ -273,4 +273,5 @@ elif q==8:
 elif q==9:
     testcase09()
 elif q==10:
+
     testcase10()
